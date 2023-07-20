@@ -114,3 +114,45 @@ a{
 .banner-btn{ 
     margin-top: 40px;
 }
+.trd-banner-container{
+    max-width: 1450px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom:120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.image-div{
+    width: 100%;
+
+}
+.snd-image{
+    position: relative;
+    top:250px;
+    right: 150px;
+    width:250px;
+}
+.trd-banner-title{
+    text-align: left;
+    font-size: 48px;
+
+}
+.trd-banner-description{
+    text-align: left;
+    font-size: 18px;
+    color: #534C64;
+    margin-top: 20px;
+}
+.title{
+    font-size: 2rem;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title-color{
+    color: #0B0223;
+    font-size: 2rem;
+}
