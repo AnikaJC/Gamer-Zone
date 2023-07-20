@@ -51,3 +51,66 @@ a{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
 }
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url('./images/Vector\ 2.png'),linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+    background-repeat: no-repeat;
+    padding:100px;    
+}
+.banner-text>h3{
+    font-size:48px;
+    font-weight: 600;
+    color: #0B0223;
+}
+.banner-text>h1{
+    font-size: 95px;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:12px;
+
+
+}
+
+.icon-text{
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+.icon{
+    vertical-align: middle;
+    width:20px;
+    height:20px;
+}
+.text{
+    vertical-align: middle;
+    font-size: 20px;
+    color: #534C64;
+
+}
+
+.primary-btn{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color:#FFF;
+    background: #FF42A5;
+    border:none;
+    text-transform:uppercase;
+    font-weight:600;
+    padding:20px 40px;
+    cursor:pointer;
+
+
+}
+.sec-btn{
+    background-color: #4EC5F7;
+    margin-left: 20px;
+
+}
+.banner-btn{ 
+    margin-top: 40px;
+}
